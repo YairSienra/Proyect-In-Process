@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+              <h1 class="Titulo">Lucia Costa</h1>
+     <div class="contenedorNoti" *ngFor="let n of noticia">
+        <div class="noti">
+           <h3>{{n.titulo}}</h3>
+              <h4>{{n.descripcion}}</h4>
+            <a>{{n.texto}}</a>
+        </div>
+     </div>
+
+     <footer class='footer'>
+        <p class='p'> Derechos Reservados Yair Sienra</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+

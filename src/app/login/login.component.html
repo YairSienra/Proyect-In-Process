@@ -1,0 +1,19 @@
+<section class="contenedor" *ngIf="!s.estaLogueada()">
+<div class='tarjeta'>
+  <div class="label">
+  <label class="label">USUARIO
+     <input  class='input' type="text" [(ngModel)]="s.persona.user">
+  </label>
+  </div>
+
+  <div class="label">
+  <label>COTRASENA
+        <input type="password" [(ngModel)]="s.persona.pass">
+  </label>
+  </div>
+   <button mat-raised-button class='boton' (click)="s.logueo()">Login</button>
+</div>
+</section>
+
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<mat-grid-list cols="2" rowHeight= 10rem >
+
+      <mat-grid-tile colspan="1">
+      <mat-form-field appearance="fill" color="red">
+              <mat-label>Titulo</mat-label>
+              <input matInput type="text" [(ngModel)]="this.formulario.titulo">
+      </mat-form-field>
+      </mat-grid-tile>
+
+
+
+      <mat-grid-tile colspan="1">
+      <mat-form-field appearance="fill" color="red">
+               <mat-label>Descripcion</mat-label>
+               <input matInput type="text" [(ngModel)]="this.formulario.descripcion">
+      </mat-form-field>
+      </mat-grid-tile>
+
+      <mat-grid-tile colspan="2">
+      <mat-form-field appearance="fill" color="red">
+              <mat-label color="red">Texto</mat-label>
+              <textarea matInput [(ngModel)]="this.formulario.texto"></textarea>
+      </mat-form-field>
+      </mat-grid-tile>
+
+      <mat-grid-tile colspan="2" class="botonespacio">
+        <button mat-raised-button class="boton" (click)="publicacion()">PUBLICAR</button>
+      </mat-grid-tile>
+
+<button mat-button class="button" (click)="irInicio()">X</button>
+
+</mat-grid-list>
+
+</html>
+

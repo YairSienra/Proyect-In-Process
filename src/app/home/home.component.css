@@ -1,0 +1,45 @@
+
+
+.header {
+
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  background-color: #d29bfd;
+  padding: 2rem;
+  margin: 0;
+  box-shadow: 12px 5px 10px black;
+
+}
+
+.mat-raised-button {
+
+  background-color: #e1caf5;
+  color: black;
+
+}
+
+footer {
+  background-color: #d29bfd;
+  width: 100%;
+  height: 60px;
+  padding-bottom: 5rem ;
+  box-shadow: 5px 5px 30px black;
+  text-align: center;
+}
+
+
+.boton {
+  display: flex;
+  flex-direction: column-reverse
+
+  }
+
+
+
+
+
+
+
+
+
